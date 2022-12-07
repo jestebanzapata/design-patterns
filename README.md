@@ -17,7 +17,8 @@ Behavioral patterns help us to create comunication mechanisms between objects li
 - Command
 - Interpreter
 - Observer
-...
+
+![image](https://user-images.githubusercontent.com/1307874/206271963-c0a43c93-c827-430f-b2da-adb7c3a96963.png)
 
 ## Structural
 
