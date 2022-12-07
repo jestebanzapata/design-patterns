@@ -30,7 +30,7 @@ https://github.com/jestebanzapata/design-patterns/tree/main/src/patterns/behavio
 
 ## Structural
 
-Structural patterns are responsible to assemble objects and mage large strcutures in a efficient and flexbile way, patterns like: Composite, Bridge, amon others.
+Structural patterns are responsible to assemble objects and mage large strcutures in a efficient and flexbile way, patterns like: Composite, Facade, adapter, bridge, among others.
 
 Here we have one example:
 
@@ -41,5 +41,11 @@ This is a pattern that help us to compose objects into a tree structure using re
 ![image](https://user-images.githubusercontent.com/1307874/206277701-5935b31a-a580-4c98-9c90-9386b0ceb29c.png)
 
 https://github.com/jestebanzapata/design-patterns/tree/main/src/patterns/structural/composite
+
+### Design patterns apply on React
+
+If you want to see more information about design patterns apply on a react project you can go to:
+
+https://github.com/jestebanzapata/react-design-pattern
 
 
