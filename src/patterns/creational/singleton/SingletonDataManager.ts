@@ -1,17 +1,18 @@
 let instance: DataManager;
 
 class DataManager {
-  private dataList: string[] = [];
+  private static instance: DataManager;
+  private dataList: string[];
 
-  constructor() {
-    if(instance){
-      throw new Error("You can only have one instance");
-    }
-    instance = this;
+  private constructor() {
+    this.dataList = [];
   }
 
-  getInstance() {
-    return this;
+  static getInstance() {
+    if(!this.instance){
+      this.instance = new DataManager();
+    }
+    return this.instance;
   }
 
   addElement(item: string) {
@@ -31,5 +32,5 @@ class DataManager {
   }
 }
 
-const singletonDataManager = new DataManager();
+const singletonDataManager = DataManager.getInstance();
 export default singletonDataManager;
